@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "461677670199",
+    "firebase_url": "https://startads-70267.firebaseio.com",
+    "project_id": "startads-70267",
+    "storage_bucket": "startads-70267.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461677670199:android:a1282e2f35436e3d",
+        "android_client_info": {
+          "package_name": "com.eazico.autoreset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461677670199-1q2rq6f7bv8is3msi4r9f0kir40psafv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eazico.autoreset",
+            "certificate_hash": "4354f83ee97a8739560abea88e8de419249ed723"
+          }
+        },
+        {
+          "client_id": "461677670199-u68v0hl5sl0n9eige6qejot9sh9cs1c5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "461677670199-u68v0hl5sl0n9eige6qejot9sh9cs1c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWb1helKnDfAm9Ey5vT2IxjgXeAtsydAE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461677670199-u68v0hl5sl0n9eige6qejot9sh9cs1c5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461677670199:android:6d9699c53e3662bf",
+        "android_client_info": {
+          "package_name": "com.opportunito.start_ads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461677670199-t55cb5433jpbtb77ri7r4gc22g7n7r0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.opportunito.start_ads",
+            "certificate_hash": "4354f83ee97a8739560abea88e8de419249ed723"
+          }
+        },
+        {
+          "client_id": "461677670199-u68v0hl5sl0n9eige6qejot9sh9cs1c5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "461677670199-u68v0hl5sl0n9eige6qejot9sh9cs1c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWb1helKnDfAm9Ey5vT2IxjgXeAtsydAE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461677670199-u68v0hl5sl0n9eige6qejot9sh9cs1c5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

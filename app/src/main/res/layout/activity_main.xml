@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/set_audio"
+        android:layout_width="339dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/button"
+        android:onClick="reset_vol"
+        android:text="set audio profile for current location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="331dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/seekbar"
+        android:foregroundTint="@android:color/holo_purple"
+        android:indeterminateTint="@android:color/holo_purple"
+        android:scrollbarStyle="insideOverlay"
+        android:theme="?android:attr/ringtonePreferenceStyle"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/set_audio" />
+
+    <Button
+        android:id="@+id/set_wifi"
+        android:layout_width="339dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="104dp"
+        android:background="@color/button"
+        android:onClick="reset_wifi"
+        android:text="set Wifi profile for current location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:background="@color/button"
+        android:onClick="store_audio"
+        android:text="ok"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <Switch
+        android:id="@+id/sw"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="64dp"
+        android:checked="false"
+        android:onClick="change_switch"
+        android:text="off"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/set_wifi" />
+
+    <include
+        layout="@layout/ad_layout"
+        android:layout_width="369dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/prog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/set_audio" />
+
+
+</android.support.constraint.ConstraintLayout>
